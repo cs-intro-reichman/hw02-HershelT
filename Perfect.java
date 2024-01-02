@@ -5,7 +5,7 @@ public class Perfect {
 	public static void main (String[] args) {
 		//// Put your code here
 		int divisor = Integer.parseInt(args[0]);
-		perfectChecker(6);
+		perfectChecker(divisor);
 	}
 	public static void perfectChecker(int num){
 		int numToCheck = 1;

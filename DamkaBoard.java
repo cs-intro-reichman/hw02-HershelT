@@ -8,12 +8,10 @@ public class DamkaBoard {
 	}
 	public static void DamkaGenerater(int num) {
 		for (int i = 0; i < num;i++){
-			if (i % 2 == 0) {
-				System.out.print("");
-			}
-			else {
+			if (i % 2 == 1) {
 				System.out.print(" ");
 			}
+
 			for (int j = 0; j < num; j++) {
 				System.out.print("* ");
 			}
