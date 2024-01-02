@@ -8,12 +8,15 @@ public class DamkaBoard {
 	}
 	public static void DamkaGenerater(int num) {
 		for (int i = 0; i < num;i++){
+			String isSpace = "";
 			if (i % 2 == 1) {
-				System.out.print(" ");
+				isSpace = (" *");
 			}
-
+			else{
+				isSpace = "* ";
+			}
 			for (int j = 0; j < num; j++) {
-				System.out.print("* ");
+				System.out.print(isSpace);
 			}
 			System.out.println();
 
