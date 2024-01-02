@@ -7,11 +7,14 @@ public class DamkaBoard {
 		DamkaGenerater(4);
 	}
 	public static void DamkaGenerater(int num) {
-		for (int i = 1; i <= num;i++){
+		for (int i = 0; i < num;i++){
 			if (i % 2 == 0) {
+				System.out.print("");
+			}
+			else {
 				System.out.print(" ");
 			}
-			for (int j = 1; j <= num; j++) {
+			for (int j = 0; j < num; j++) {
 				System.out.print("* ");
 			}
 			System.out.println();
