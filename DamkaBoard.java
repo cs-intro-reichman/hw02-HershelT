@@ -4,7 +4,8 @@
 public class DamkaBoard {
 	public static void main(String[] args) {
 		//// Put your code here
-		DamkaGenerater(4);
+		int n = Integer.parseInt(args[0]);
+		DamkaGenerater(n);
 	}
 	public static void DamkaGenerater(int num) {
 		for (int i = 0; i < num;i++){
