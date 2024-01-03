@@ -20,7 +20,6 @@ public class DamkaBoard {
 				System.out.print(isSpace);
 			}
 			System.out.println();
-
 		}
 
 	}
